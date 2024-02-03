@@ -1,0 +1,19 @@
+# ignore hidden files
+.*
+
+# do not ignore .git, needed for versioning
+!/.git
+
+# ignore repo directories and files
+docs/
+gh-pages-template/
+scripts/
+tools/
+crowdin.yml
+
+# ignore dev directories
+build/
+venv/
+
+# ignore artifacts
+artifacts/
